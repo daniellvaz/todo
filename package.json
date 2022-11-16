@@ -1,0 +1,14 @@
+{
+  "name": "todo",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:mobile": "yarn workspace @todo/mobile start",
+    "dev:server": "yarn workspace @todo/server dev"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
